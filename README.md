@@ -1,6 +1,6 @@
 # djangocms-1.11.20
 1. Проект djangoCMS c версией 1.11.20 LTS
-2. Включены библиотеки mypy и autopep для VSCode.
+2. Включены библиотеки PyLint и AutoPep для VSCode.
 
 ## Установка:
 1. Склонировать проект
@@ -9,3 +9,5 @@
 4. Выполнить команду:  
   Для VSCode: ```pipenv install --dev```  
   Для другого редактора: ```pipenv install```  
+5. По желанию можно установить cmd файлы для быстрой активации команд (python manage.py shell и т.д.). 
+   Для этого выполните команду python manage.py install_cmd
