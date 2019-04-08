@@ -10,4 +10,4 @@
   Для VSCode: ```pipenv install --dev```  
   Для другого редактора: ```pipenv install```  
 5. По желанию можно установить cmd файлы для быстрой активации команд (python manage.py shell и т.д.). 
-   Для этого выполните команду python manage.py install_cmd
+   Для этого выполните команду ```python manage.py install_cmd```
